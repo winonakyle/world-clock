@@ -1,3 +1,74 @@
 body {
-  background-color: beige;
+  background-color: #EDEAF3;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #E8D3DE;
+  box-shadow: 7px 7px 7px #9CABD6;
+  border: none;
+  border-radius: 75px;
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  font-family: barriecito;
+  font-size: 25px;
+  color: #9CABD6;
+}
+
+h2 {
+  margin: 0;
+}
+
+.date {
+  font-size: 15px;
+  font-family: averia libre;
+}
+
+.time {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: averia libre;
+  color: #9CABD6;
+}
+
+.time small {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+select {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-family: averia libre;
+  color: #9CABD6;
+  background-color: #EDEAF3;
+  border: none;
+  border-radius: 15px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 40px;
+  font-family: barrio;
+  color: #9CABD6;
+}
+
+footer {
+  text-align: center;
+  margin-top: 25px;
+  font-family: averia libre;
+  color: #9CABD6;
+}
+
+a {
+  color: #9CABD6;
 }
