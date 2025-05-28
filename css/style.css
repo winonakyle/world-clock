@@ -5,11 +5,12 @@ body {
 .container {
   max-width: 600px;
   margin: 0 auto;
+  margin-top: 50px;
   padding: 30px;
   background-color: #E8D3DE;
-  box-shadow: 7px 7px 7px #9CABD6;
+  box-shadow: 0px 5px 15px #9CABD6;
   border: none;
-  border-radius: 75px;
+  border-radius: 50px;
 }
 
 .city {
@@ -31,7 +32,7 @@ h2 {
 }
 
 .time {
-  font-size: 30px;
+  font-size: 38px;
   font-weight: bold;
   font-family: averia libre;
   color: #9CABD6;
@@ -51,7 +52,7 @@ select {
   color: #9CABD6;
   background-color: #EDEAF3;
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 h1 {
