@@ -11,15 +11,26 @@ tokyoDateElement.innerHTML = tokyoTimezone.format("MMMM D, YYYY");
 tokyoTimeElement.innerHTML = tokyoTimezone.format("h:mm:ss [<small>]A[</small>]");
 }
 
-// Paris
-let parisElement = document.querySelector("#paris");
-if (parisElement) {
-let parisDateElement = parisElement.querySelector(".date");
-let parisTimeElement = parisElement.querySelector(".time");
-let parisTimezone = moment().tz("Europe/Paris");
+// Nairobi
+let nairobiElement = document.querySelector("#nairobi");
+if (nairobiElement) {
+let nairobiDateElement = nairobiElement.querySelector(".date");
+let nairobiTimeElement = nairobiElement.querySelector(".time");
+let nairobiTimezone = moment().tz("Africa/Nairobi");
 
-parisDateElement.innerHTML = parisTimezone.format("MMMM D, YYYY");
-parisTimeElement.innerHTML = parisTimezone.format("h:mm:ss [<small>]A[</small>]");
+nairobiDateElement.innerHTML = nairobiTimezone.format("MMMM D, YYYY");
+nairobiTimeElement.innerHTML = nairobiTimezone.format("h:mm:ss [<small>]A[</small>]");
+}
+
+// Honolulu
+let honoluluElement = document.querySelector("#honolulu");
+if (honoluluElement) {
+let honoluluDateElement = honoluluElement.querySelector(".date");
+let honoluluTimeElement = honoluluElement.querySelector(".time");
+let honoluluTimezone = moment().tz("Pacific/Honolulu");
+
+honoluluDateElement.innerHTML = honoluluTimezone.format("MMMM D, YYYY");
+honoluluTimeElement.innerHTML = honoluluTimezone.format("h:mm:ss [<small>]A[</small>]");
 }
 
 };
